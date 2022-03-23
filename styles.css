@@ -73,6 +73,7 @@ body {
   font-size: 12px;
   align-self: center;
 }
+
 #login-btn {
   grid-area: login-btn;
   height: 22px;
@@ -85,4 +86,17 @@ body {
   padding: 0;
   align-self: end;
   font-size: 12px;
+}
+
+/** --------------------- main content ----------------------- **/
+#main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 450px 540px 430px 500px;
+  grid-template-rows: repeat(12, 1fr) auto;
+  grid-template-areas:
+    ''
+    ''
+    ''
+    '';
 }
